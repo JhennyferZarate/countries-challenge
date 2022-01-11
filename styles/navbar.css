@@ -6,7 +6,7 @@
 
 :root{
     --navbar-color: white;
-    --background-color: white;
+    --background-color: rgb(236, 236, 236);
     --letter-color: #0E0D0D;
 }
 
@@ -24,8 +24,17 @@ body{
 
 nav{
     background: var(--navbar-color);
-    padding: 5px 20px;
+    padding: 5px 25px;
     box-shadow: 0.5px 0.5px 5px rgb(105, 105, 105);
+}
+
+.menu .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: var(--letter-color);
 }
 
 ul{
