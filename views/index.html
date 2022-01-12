@@ -12,23 +12,141 @@
 <body>
     <nav>
         <ul class="menu">
-            <li class="logo"><a href="index.html">Where is the world?</a></li>
+            <li class="logo"><a href="./index.html">Where is the world?</a></li>
             <img src="/images/moon.png" id="icon"> 
         </ul>  
     </nav>
 
-    <div class="container-1">
-        <div>
+    <div class="container">
+        <div class="container-1">
             <span class="icon"><i class="fas fa-search"></i></span>
             <input type="search" id="search" placeholder="Search for a country..." />
         </div>
-        <div>
-            <span class="icon"><i class="fas fa-search"></i></span>
-            <input type="search" id="search" placeholder="Search for a country..." />
+        <div class="container-1">
+            <select placeholder="Filter by region">
+                <option hidden selected>Filter by Region</option>
+                <option value="">Africa</option>
+                <option value="">America</option>
+                <option value="">Asia</option>
+                <option value="">Europe</option>
+                <option value="">Oceania</option>
+            </select>
+        </div>
+    </div>
+
+    
+
+    <div class="container-2">
+        <div class="card">
+            <div class="card_item"">
+                <div class="head"">
+                    <img src="/images/germany.png"> 
+                </div>
+                <div class="content" ">
+                    <h1 ><a href="./countriesInformation/germany.html">Germany</a></h1>
+                    <p>Population: <span>81,770.900</span></p>   
+                    <p>Region: <span>Europe</span></p>
+                    <p>Capital: <span>Berlin</span></p>  
+                </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_item" href="#">
+                <div class="head"">
+                    <img src="/images/eeuu.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/unitedStates.html">United States of America</a></h1>
+                    <p>Population: <span>323,947,000</span></p>   
+                    <p>Region: <span>Americas</span></p>
+                    <p>Capital: <span>Washington</span></p>  
+                </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_item">
+                <div class="head"">
+                    <img src="/images/brasil.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/brazil.html">Brazil</a></h1>
+                    <p>Population: <span>206,135,893</span></p>   
+                    <p>Region: <span>Americas</span></p>
+                    <p>Capital: <span>Brasilia</span></p>  
+                </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_item" href="#">
+                <div class="head"">
+                    <img src="/images/iceland.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/iceland.html">Iceland</a></h1>
+                    <p>Population: <span>334,300</span></p>   
+                    <p>Region: <span>Europe</span></p>
+                    <p>Capital: <span>Reykjavík</span></p>  
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <div class="container-2">
+        <div class="card">
+            <div class="card_item">
+                <div class="head"">
+                    <img src="/images/afganistan.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/afghanistan.html">Afganistan</a></h1>
+                    <p>Population: <span>27,657,145</span></p>   
+                    <p>Region: <span>Asia</span></p>
+                    <p>Capital: <span>Kabul</span></p>  
+                </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_item">
+                <div class="head"">
+                    <img src="/images/aland.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/aland.html">Aland Islands</a></h1>
+                    <p>Population: <span>28,875</span></p>   
+                    <p>Region: <span>Europe</span></p>
+                    <p>Capital: <span>Mariehamn</span></p>  
+                </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_item">
+                <div class="head"">
+                    <img src="/images/albania.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/albania.html">Albania</a></h1>
+                    <p>Population: <span>2,886,086</span></p>   
+                    <p>Region: <span>Europe</span></p>
+                    <p>Capital: <span>Tirana</span></p>  
+                </div>  
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_item">
+                <div class="head"">
+                    <img src="/images/algeria.png"> 
+                </div>
+                <div class="content">
+                    <h1><a href="./countriesInformation/algeria.html">Algeria</a></h1>
+                    <p>Population: <span>40,400,000</span></p>   
+                    <p>Region: <span>Africa</span></p>
+                    <p>Capital: <span>Algiers</span></p>  
+                </div>  
+            </div>
         </div>
     </div>
 
     <script src="/scripts/navbar.js"></script>
-    
+    <script src="/scripts/index.js"></script>
 </body>
 </html>

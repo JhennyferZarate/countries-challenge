@@ -24,8 +24,9 @@ body{
 
 nav{
     background: var(--navbar-color);
-    padding: 5px 25px;
-    box-shadow: 0.5px 0.5px 5px rgb(105, 105, 105);
+    padding: 0.5rem 8rem;
+    box-shadow: 0.05rem 0.05rem 0.5rem rgb(141, 141, 141);
+    cursor: none;
 }
 
 .menu .icon{
@@ -35,6 +36,8 @@ nav{
     margin-top: 17px;
     z-index: 1;
     color: var(--letter-color);
+    cursor: pointer;
+    
 }
 
 ul{
@@ -56,7 +59,7 @@ a:hover{
 }
 
 #icon{
-    width: 14px;
+    width: 20px;
     cursor: pointer;
 }
 

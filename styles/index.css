@@ -1,14 +1,22 @@
+.container{
+    padding: 0rem 8rem 0.5rem 8rem;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+
 .container-1{
     width: 300px;
     vertical-align: middle;
-    white-space: nowrap;
     position: relative;
-    padding: 50px 25px;
+    padding: 50px 0px;
 }
 
 .container-1 .icon{
     position: absolute;
-    top: 50%;
     margin-left: 17px;
     margin-top: 17px;
     z-index: 1;
@@ -20,7 +28,7 @@
     height: 50px;
     background: var(--navbar-color);
     border: none;
-    font-size: 10pt;
+    font-size: 14pt;
     float: left;
     color: var(--letter-color);
     padding-left: 45px;
@@ -28,17 +36,94 @@
     -moz-border-radius: none;
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(105, 105, 105);
+    align-items: center;
 }
 
 ::-webkit-input-placeholder { 
     color: var(--letter-color);
 }
 
-.container-2{
-    width: 300px;
+
+
+.container-1 select::-ms-expand {
+    display: none;
+}
+
+.container-1{
+	width: 200px;
+	position: relative;
     vertical-align: middle;
     white-space: nowrap;
+    padding: 50px 0px;
+}
+
+select{
+    width: 200px;
+    height: 50px;
+    background: var(--navbar-color);
+    border: none;
+    font-size: 14pt;
+    float: left;
+    color: var(--letter-color);
+    padding-left:15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(105, 105, 105);
+    align-items: center; 
     position: relative;
-    padding-top: 50px;
-    padding-right: 25px;
-  }
+    -webkit-margin-bottom-collapse: collapse;
+ }
+
+
+ .head img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+ }
+
+ .container-2{
+    display:flex;
+    justify-content: center;
+    height:23.5rem;
+    align-items: center;
+    vertical-align: middle;
+ }
+
+ .card{
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.05rem 0.5rem rgb(141, 141, 141);
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    overflow: hidden;
+    width: 20rem;
+    background-color: var(--navbar-color);
+    color:var(--letter-color)
+    
+ }
+
+ .card h1{
+    font-size: 1.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+ }
+
+ .card p{
+    font-size: 1rem;
+    line-height : 1.5rem;
+    font-weight: bold;
+ }
+
+ .card p span{
+    font-weight: normal;
+ }
+ 
+.content{
+    padding: 0.4rem 1.8rem 1.5rem 1.8rem;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
